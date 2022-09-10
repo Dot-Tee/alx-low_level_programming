@@ -1,31 +1,30 @@
-#include <stdio.h> 
- /** 
-  * main - entry point 
-  * 
-  * Return: alway returns 0 
- */ 
- int main(void) 
- { 
-         int i; 
-         int j; 
-  
-         for (i = 10; i <= 19; i++) 
-         { 
-                 for (j = 10; j <= 19; j++) 
-                 { 
-                         if ((j % 10) > (i % 10)) 
-                         { 
-                                 putchar((i % 10) + '0'); 
-                                 putchar((j % 10) + '0'); 
-                                 if (i != 18 || j != 19) 
-                                 { 
-                                         putchar(','); 
-                                         putchar(' '); 
-                                 } 
-                         } 
-  
-                 } 
-         } 
-         putchar('\n'); 
-         return (0); 
- }
+#include <stdio.h>
+/**
+ * main -entry point
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	int a;
+	int b;
+
+	for (a = 10; a <= 19; a++)
+	{
+		for (b = 10; b <= 19; b++)
+		{
+			if ((b % 10) > (a % 10))
+			{
+				putchar((a % 10) + '0');
+				putchar((b % 10) + '0');
+				if (a != 18 || b != 19)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('/n');
+	return (0);
+}
