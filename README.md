@@ -1,1 +1,1 @@
-Beginning of c for me
+low level programming on c
