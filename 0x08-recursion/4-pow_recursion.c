@@ -1,8 +1,7 @@
-Tsk 4
 #include "main.h"
 
 /**
-*	_pow_recursion -> power using recursion
+* _pow_recursion -> power using recursion
 * @x: x ^ y
 * @y: the power number
 * Return: power result
