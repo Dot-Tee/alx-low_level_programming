@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - ...
- * @argc: ...
- * @argv: ...
- * Return: ...
+ * main - prints the result of simple operations
+ * @argc: number of arguments supplied to the program
+ * @argv: array of pointers to the argument
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
